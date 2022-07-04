@@ -1,0 +1,57 @@
+.back{
+    color: rgb(155, 155, 155);
+}
+body {
+background-color: white;
+}
+
+.banner{
+    height: 75px;
+    margin: 0px 0px 0px;
+    background-color: rgb(3, 21, 169);
+    border-radius: 2px;
+
+}
+.banner1{
+    height: 50px;
+    margin: 0px -10px 10px;
+    background-color: rgb(20, 18, 135);
+    border-radius: 2px;
+
+}
+
+h1 {
+    background-color: rgb(20, 18, 135);
+    color: white;
+    font-size: 45px;
+    margin: 5px 10px 10px;
+}
+
+.resposta{
+    background-color: grey;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+h3 {
+    display: block;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 5px 10px 10px;
+}
+
+.textInput{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 20px 20px;
+}
+.botao{
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 10px 20px 20px;
+}
