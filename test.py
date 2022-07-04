@@ -3,6 +3,7 @@ from dash.dependencies import Input,Output
 import processar
 
 app = Dash(__name__)
+server = app.server #server heroku reconhecer a app
 
 app.layout = html.Div(children=[
     html.H1(children='Fórmula de Bhaskara',className='banner'),
@@ -34,8 +35,7 @@ app.layout = html.Div(children=[
     prevent_initial_call=True
 
 )
-def update_table(n_clicks, valueA, valueB, valueC):
-
+def update(n_clicks, valueA, valueB, valueC):
 
     print(f'{valueA} {valueB} {valueC}')
     if int(valueA) > 0:
